@@ -11,8 +11,8 @@ The system supports adding patients to the queue, printing all patients in the q
 - **Retrieve Next Patient**: Allows retrieval of the next patient in line for consultation.
 
 ## Learning outcomes
-Data Structures: Understand and manipulate custom data structures (queues) in C++ 📊.
-C++ Skills: Improve proficiency in C++ with classes and functions 💻.
-Algorithmic Thinking: Develop algorithms for queue operations (add, remove, print) 🔍.
-User Interface Design: Create a command-line interface for user interaction 🎛️.
-Problem Solving: Handle real-world patient management scenarios 🏥.
+1. Data Structures: Understand and manipulate custom data structures (queues) in C++ 📊.
+2. C++ Skills: Improve proficiency in C++ with classes and functions 💻.
+3. Algorithmic Thinking: Develop algorithms for queue operations (add, remove, print) 🔍.
+4. User Interface Design: Create a command-line interface for user interaction 🎛️.
+5. Problem Solving: Handle real-world patient management scenarios 🏥.
