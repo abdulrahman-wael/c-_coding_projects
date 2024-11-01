@@ -1,25 +1,28 @@
-#what is this?
-a console application that simulates "Expedia.com" .. a popular booking website
+# Overview of the Expedia.com Simulation Console Application
+This console application simulates Expedia.com, a popular booking website, providing a simplified experience of online travel bookings.
 
-#How it's structured?
-1. It consists of 3 back-end subsystems (Itineraries system, Payment system, and Users system),
-2. One front-end system (Expedia),
-3. And some global helper functions and properties.
+## Structure of the Application
+1. Back-End Subsystems:
+  Itineraries System: Manages travel itineraries for users.
+  Payment System: Handles payment processing.
+  Users System: Manages user accounts and information.
+2. Front-End System:
+  Expedia: The user interface for interacting with the booking system.
+3. Global Helper Functions and Properties:
+  Utilities and shared functionalities to support the application.
 
-#Program features:
-1. Polymorphism is the main target .. extensibility is to be achieved
-2. Heavy use of pointers and dynamic allocation
-3. API handling .. however, they are local
-4. Using properties as interfaces
-5. Factory design pattern is prominent
-6. Operator overloading for nicer code
-7. The project is separated into abstract .h files and implementation details in .cpp files
-
-#unfortunately:
-8. It uses dummy data instead of permanent storage for simplicity
-9. The system is vulnerable to wrong user input .. like string instead of int and so
-10. Some classes are non-copyable indicating that it's enough to have one copy of them
-11. The application focuses on only the customer's view
-
-#side note:
-any member function named "dummy reader" has the purpose of initializing objects with dummy data .. for easy usage quickly
+## Key Features
+1. Polymorphism: The application is designed to leverage polymorphism for extensibility, allowing for easier updates and enhancements. 🌟
+2. Dynamic Memory Management: Extensive use of pointers and dynamic allocation to manage resources effectively. 🔄
+3. API Handling: Localized API handling for inter-system communication. 🔗
+4. Properties as Interfaces: Properties are utilized to serve as interfaces for different functionalities. 🛠️
+5. Factory Design Pattern: The factory design pattern is prominently employed to create objects in a flexible and reusable manner. 🏭
+6. Operator Overloading: Enhances code readability and usability through operator overloading. ✍️
+7. Code Organization: The project is organized with abstract .h files for declarations and .cpp files for implementation details. 📂
+## Limitations
+1. Dummy Data Usage: The application uses dummy data for simplicity rather than permanent storage. ⚠️
+2. User Input Vulnerabilities: The system is susceptible to incorrect user input, such as entering a string instead of an integer. ❌
+3. Non-Copyable Classes: Some classes are designated as non-copyable to ensure only one instance exists. 🚫
+4. Customer-Focused: The application primarily focuses on the customer's view without backend administrative features. 👤
+## Additional Note
+Any member function named "dummy reader" is designed to initialize objects with dummy data for quick and easy usage. 📝
