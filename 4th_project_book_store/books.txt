@@ -1,0 +1,4 @@
+123,c++ how to program,some author,A c++,B c++,C c++,D c++
+234,clean code,some author 2,simple,unique,consistent,clear,KISS,keep it simple stupid !
+509,make it stick,some author 3,practice,cognitive load,now !
+518,how to negotiate,some author,build confidence in yourself,start small and grow larger as an expert
